@@ -1,3 +1,4 @@
+# Sha'nya Conaway
 # importing all the required modules
 import socket
 import threading
@@ -112,7 +113,6 @@ class Client:
         # Send all
         else:
             self.sock.sendall('{}: {}'.format(self.name, message).encode('ascii'))
-
 
 def main(host, port):
 

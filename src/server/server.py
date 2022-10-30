@@ -1,8 +1,8 @@
+# Sha'nya Conaway
 # importing all the required modules
 import threading
 import socket
 import os
-
 
 class Server(threading.Thread):
     # Create socket
